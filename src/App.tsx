@@ -6,7 +6,6 @@ import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { ErrorBusProvider } from '@/components/ErrorBus';
 import { Layout } from '@/components/Layout';
 import DashboardOverview from '@/pages/DashboardOverview';
-import { WorkflowPlaceholders } from '@/components/WorkflowPlaceholders';
 import AdminPage from '@/pages/AdminPage';
 import BuchungsuebersichtPage from '@/pages/BuchungsuebersichtPage';
 import BuchungsuebersichtDetailPage from '@/pages/BuchungsuebersichtDetailPage';
@@ -27,7 +26,7 @@ export default function App() {
               {/* <public:routes> */}
               {/* </public:routes> */}
               <Route element={<Layout />}>
-                <Route index element={<><div className="mb-8"><WorkflowPlaceholders /></div><DashboardOverview /></>} />
+                <Route index element={<DashboardOverview />} />
                 <Route path="buchungsuebersicht" element={<BuchungsuebersichtPage />} />
                 <Route path="buchungsuebersicht/:id" element={<BuchungsuebersichtDetailPage />} />
                 <Route path="admin" element={<AdminPage />} />
