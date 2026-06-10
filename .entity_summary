@@ -1,0 +1,1 @@
+- Buchungsübersicht (buchungsuebersicht): gast_vorname[string/text], gast_nachname[string/text], zimmernummer[string/text], anreise[date/date], abreise[date/date], anzahl_personen[number], buchungsstatus[lookup/select], hinweise[string/textarea]

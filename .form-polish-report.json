@@ -1,0 +1,10 @@
+{
+  "entities": {
+    "Buchungsübersicht": {
+      "placeholders_set": 8,
+      "defaults_keys": ["anreise", "abreise", "anzahl_personen", "buchungsstatus"],
+      "computed_keys": ["_buchung_dauer_nächte"],
+      "reason": "Aufenthalts-Entity mit Datumspaar — virtuelle Dauer-Berechnung für Aggregat-Anzeige. Keine Preisfelder vorhanden, daher keine Gesamtkosten-Berechnung."
+    }
+  }
+}

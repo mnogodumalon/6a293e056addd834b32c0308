@@ -1,0 +1,12 @@
+{
+  "BuchungsuebersichtDialog.tsx": {
+    "gast_vorname": "z. B. Max",
+    "gast_nachname": "z. B. Mustermann",
+    "zimmernummer": "z. B. 201",
+    "anreise": "Ankunft wählen",
+    "abreise": "Abreise wählen",
+    "anzahl_personen": "z. B. 2",
+    "buchungsstatus": "Wähle einen Status",
+    "hinweise": "Allergien, Diäten, spezielle Wünsche..."
+  }
+}
